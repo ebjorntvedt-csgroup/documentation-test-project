@@ -1,0 +1,4 @@
+# Dependencies required by the Sphinx documentation generation.
+# Please list the dependencies in alphabetic order to ease the
+# maintenance of the file.
+myst_parser
