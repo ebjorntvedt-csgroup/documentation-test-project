@@ -1,0 +1,9 @@
+name: Documentation generation
+run-name: doc-gen
+on: [push]
+jobs:
+  generate-documentation:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: ls -la
