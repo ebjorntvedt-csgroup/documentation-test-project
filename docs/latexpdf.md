@@ -1,7 +1,9 @@
 # PDF generation
 
-This page describes how to generate the documentation as a pdf
-document.
+This page describes different solutions for how to generate the
+documentation as a pdf document.
+
+## Default Sphinx builder
 
 Sphinx provides a [LaTeX](https://www.sphinx-doc.org/en/master/usage/builders/index.html#sphinx.builders.latex.LaTeXBuilder)
 builder that allows generating a pdf document from the documentation.
@@ -20,3 +22,9 @@ image:
 ```
 docker run --rm -v /data/gpos/documentation-test-project/docs:/docs -v /data/gpos/documentation-test-project/output:/output  sphinx:local sphinx-build -M latexpdf /docs /output
 ```
+
+## Additional resources
+
+- [rinohtype](https://www.mos6581.org/rinohtype/master/#)
+- [sphinx-business-theme](https://github.com/Nekmo/sphinx-business-theme)
+- [sphinx-simplepdf](https://sphinx-simplepdf.readthedocs.io/en/latest/)
