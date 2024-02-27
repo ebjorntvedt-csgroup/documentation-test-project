@@ -25,6 +25,14 @@ docker run --rm -v /data/gpos/documentation-test-project/docs:/docs -v /data/gpo
 
 ## Additional resources
 
+### Sphinx-based solutions
+
+- post addressing generating [multiple pdf documents](https://groups.google.com/g/sphinx-users/c/XNnVdAhTC7A)
 - [rinohtype](https://www.mos6581.org/rinohtype/master/#)
 - [sphinx-business-theme](https://github.com/Nekmo/sphinx-business-theme)
 - [sphinx-simplepdf](https://sphinx-simplepdf.readthedocs.io/en/latest/)
+
+### Markdown to pdf
+
+- [md-to-pdf](https://hub.docker.com/r/spawnia/md-to-pdf): A web service for converting markdown to PDF. No license notices.
+- [md-to-pdf](https://github.com/simonhaenisch/md-to-pdf), a javascript-based converter. MIT license.
