@@ -22,7 +22,9 @@ The documentation can also be generated as a
 :maxdepth: 1
 :caption: Contents
 
+srf
 latexpdf
+vcm
 ```
 
 ## Indices and tables
